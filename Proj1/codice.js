@@ -1,14 +1,16 @@
 function main() {
 	var righe = 25;
 	var colonne = 50;
-
+	const carVuoto = " ";
+	const carPieno = "█";
+	
 	var piano =[];
 	for(var i =0; i < righe; i++)
 	{
 		var column =[];
 		for(var j =0; j < colonne; j++)
 		{
-			column.push("*");
+			column.push(carVuoto);
 		}
 		piano.push(column);
 	}
@@ -17,7 +19,7 @@ function main() {
 	var currentColumn = 25;
 	var ultimaDirezione = 0;
 	
-	piano[currentRow][currentColumn] = "O";
+	piano[currentRow][currentColumn] = carPieno;
 	
 	for (var i = 0; i < 100; i++)
 	{	
@@ -87,7 +89,7 @@ function main() {
 			currentColumn--;
 		}
 	
-		piano[currentRow][currentColumn] = "O";
+		piano[currentRow][currentColumn] = carPieno;
 	}
 	
 	console.log (stampaMatrice(piano));
