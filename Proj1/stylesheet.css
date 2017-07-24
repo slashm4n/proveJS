@@ -1,0 +1,36 @@
+body {
+	background: white;
+	margin: 0;
+}
+
+canvas {
+	display: block;
+	margin: 10px auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+.button {
+	border: 1px solid black;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+.button:hover {
+	border: 1px solid red;
+	color: red;
+}
+
+#info {
+	color: black;
+	margin: 10px auto;
+	width: 275px;
+}
+
