@@ -21,7 +21,7 @@ function main() {
 	
 	piano[currentRow][currentColumn] = carPieno;
 	
-	for (var i = 0; i < 100; i++)
+	for (var i = 0; i < 500; i++)
 	{	
 		var prc=Math.random();
 		var direzione;  // 1 = vado in basso, 2 = vado in alto, 3 = vado a destra, 4 = vado a sinistra
